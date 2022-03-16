@@ -6,7 +6,10 @@ This project has been coded in the scope of the HackCMU 2021: http://hackcmu.org
 
 ## The Project
 
-<Insert image>
+<div class="align-center">
+    <img src="images/sample2.png" title="Example Detection 1" style="width:49%">
+    <img src="images/sample4.png" title="Example Detection 2" style="width:49%">
+</div> 
 
 Our team, Philip Neugebauer, Hong Sng, Tyler Wilson, and Allan Nguyen, trained a model to detect litter in images using [Detectron2](https://github.com/facebookresearch/detectron2) and the [TACO dataset](https://github.com/pedropro/TACO). Our script can then read out the GPS location of the image. It reads out the location of all images in which litter has been detected and the number of litter in the image, and prints it out. The text can then be read in and presented on our heatmap, to visualize areas in which a lot of litter has been detected. Code for the visualization can be found [here](https://github.com/snghong/heatmap).
 
